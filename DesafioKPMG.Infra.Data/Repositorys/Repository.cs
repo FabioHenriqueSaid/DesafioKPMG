@@ -25,7 +25,21 @@ namespace DesafioKPMG.Infra.Data.Repositorys
             }
         }
 
+        public IEnumerable<TEntity> ValidaBalancoPontos(long id)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<TEntity> GetAll()
+        {
+            return dataContext.Set<TEntity>().ToList();
+        }
+        public TEntity GetById(int id)
+        {
+            return dataContext.Set<TEntity>().Find(id);
+        }
+
+        public IEnumerable<TEntity> BestPlayers()
         {
             return dataContext.Set<TEntity>().ToList();
         }

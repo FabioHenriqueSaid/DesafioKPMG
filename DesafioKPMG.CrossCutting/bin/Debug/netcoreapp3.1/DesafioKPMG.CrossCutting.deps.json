@@ -1068,7 +1068,8 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "DesafioKPMG.Domain": "1.0.0",
-          "DesafioKPMG.Domain.Core": "1.0.0"
+          "DesafioKPMG.Domain.Core": "1.0.0",
+          "DesafioKPMG.Infra.Data": "1.0.0"
         },
         "runtime": {
           "DesafioKPMG.Application.dll": {}
@@ -1095,7 +1096,8 @@
       "DesafioKPMG.Domain.Services/1.0.0": {
         "dependencies": {
           "DesafioKPMG.Domain": "1.0.0",
-          "DesafioKPMG.Domain.Core": "1.0.0"
+          "DesafioKPMG.Domain.Core": "1.0.0",
+          "DesafioKPMG.Infra.Data": "1.0.0"
         },
         "runtime": {
           "DesafioKPMG.Domain.Services.dll": {}

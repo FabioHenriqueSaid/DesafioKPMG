@@ -7,5 +7,8 @@ namespace DesafioKPMG.Application.Interfaces
     {
         void Add(GameResultDto gameResultDto);
         IEnumerable<GameResultDto> GetAll();
+        GameResultDto GetById(int id);
+        IEnumerable<GameResultDto> ValidaBalancoPontos(long id);
+        IEnumerable<LeaderboardDto> BestPlayers();
     }
 }

@@ -1,6 +1,8 @@
 ﻿using DesafioKPMG.Domain.Core.Interfaces.Repository;
 using DesafioKPMG.Domain.Core.Interfaces.Services;
 using DesafioKPMG.Domain.Entities;
+using System;
+using System.Collections.Generic;
 
 namespace DesafioKPMG.Domain.Services
 {
@@ -12,5 +14,6 @@ namespace DesafioKPMG.Domain.Services
         {
             this.leaderboardRepository = leaderboardRepository;
         }
+
     }
 }

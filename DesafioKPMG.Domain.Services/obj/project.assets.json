@@ -1585,6 +1585,26 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "DesafioKPMG.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DesafioKPMG.Domain": "1.0.0",
+          "DesafioKPMG.Domain.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3",
+          "Swashbuckle.AspNetCore": "6.0.7"
+        },
+        "compile": {
+          "bin/placeholder/DesafioKPMG.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesafioKPMG.Infra.Data.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5923,12 +5943,18 @@
       "type": "project",
       "path": "../DesafioKPMG.Domain.Core/DesafioKPMG.Domain.Core.csproj",
       "msbuildProject": "../DesafioKPMG.Domain.Core/DesafioKPMG.Domain.Core.csproj"
+    },
+    "DesafioKPMG.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../DesafioKPMG.Infra.Data/DesafioKPMG.Infra.Data.csproj",
+      "msbuildProject": "../DesafioKPMG.Infra.Data/DesafioKPMG.Infra.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DesafioKPMG.Domain >= 1.0.0",
-      "DesafioKPMG.Domain.Core >= 1.0.0"
+      "DesafioKPMG.Domain.Core >= 1.0.0",
+      "DesafioKPMG.Infra.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5963,6 +5989,9 @@
             },
             "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj": {
               "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj"
+            },
+            "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Infra.Data\\DesafioKPMG.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Infra.Data\\DesafioKPMG.Infra.Data.csproj"
             }
           }
         }

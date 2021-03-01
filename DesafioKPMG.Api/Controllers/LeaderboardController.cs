@@ -6,6 +6,7 @@ using System.Collections.Generic;
 
 namespace DesafioKPMG.Api.Controllers
 {
+    [Route("leaderboard")]
     public class LeaderboardController : ControllerBase
     { 
         private readonly IApplicationServiceLeaderboard applicationServiceLeaderboard;
@@ -33,7 +34,12 @@ namespace DesafioKPMG.Api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return Ok(applicationServiceLeaderboard.GetAll());
+            return Ok(applicationServiceLeaderboard.BestPlayers());
+        }
+        [HttpGet("{id}")]
+        public ActionResult<string> Get(int id)
+        {
+            return Ok(applicationServiceLeaderboard.GetById(id));
         }
     }
 }

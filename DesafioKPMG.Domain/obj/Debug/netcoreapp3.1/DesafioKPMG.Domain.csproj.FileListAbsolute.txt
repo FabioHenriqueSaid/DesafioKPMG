@@ -9,3 +9,4 @@ C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain\obj\Debug\netcoreapp3.
 C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain\obj\Debug\netcoreapp3.1\DesafioKPMG.Domain.dll
 C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain\obj\Debug\netcoreapp3.1\DesafioKPMG.Domain.pdb
 C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain\obj\Debug\netcoreapp3.1\DesafioKPMG.Domain.genruntimeconfig.cache
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain\obj\Debug\netcoreapp3.1\DesafioKPMG.Domain.csprojAssemblyReference.cache

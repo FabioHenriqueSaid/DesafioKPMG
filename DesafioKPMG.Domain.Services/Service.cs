@@ -17,9 +17,24 @@ namespace DesafioKPMG.Domain.Services
         {
             repository.Add(entity);
         }
+
+        public IEnumerable<TEntity> ValidaBalancoPontos(long id)
+        {
+            return repository.ValidaBalancoPontos(id);
+        }
+
         public IEnumerable<TEntity> GetAll()
         {
             return repository.GetAll();
+        }
+        public TEntity GetById(int playerid)
+        {
+            return repository.GetById(playerid);
+        }
+
+        public IEnumerable<TEntity> BestPlayers()
+        {
+            return repository.BestPlayers();
         }
     }
 }

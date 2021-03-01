@@ -9,7 +9,8 @@
       "DesafioKPMG.Domain.Services/1.0.0": {
         "dependencies": {
           "DesafioKPMG.Domain": "1.0.0",
-          "DesafioKPMG.Domain.Core": "1.0.0"
+          "DesafioKPMG.Domain.Core": "1.0.0",
+          "DesafioKPMG.Infra.Data": "1.0.0"
         },
         "runtime": {
           "DesafioKPMG.Domain.Services.dll": {}
@@ -1065,6 +1066,18 @@
         "runtime": {
           "DesafioKPMG.Domain.Core.dll": {}
         }
+      },
+      "DesafioKPMG.Infra.Data/1.0.0": {
+        "dependencies": {
+          "DesafioKPMG.Domain": "1.0.0",
+          "DesafioKPMG.Domain.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3",
+          "Swashbuckle.AspNetCore": "6.0.7"
+        },
+        "runtime": {
+          "DesafioKPMG.Infra.Data.dll": {}
+        }
       }
     }
   },
@@ -1780,6 +1793,11 @@
       "sha512": ""
     },
     "DesafioKPMG.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DesafioKPMG.Infra.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

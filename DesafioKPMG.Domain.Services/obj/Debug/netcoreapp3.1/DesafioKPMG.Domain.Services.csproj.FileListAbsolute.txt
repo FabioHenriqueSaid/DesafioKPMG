@@ -12,3 +12,5 @@ C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain.Services\bin\Debug\net
 C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain.Services\obj\Debug\netcoreapp3.1\DesafioKPMG.Domain.Services.csproj.CopyComplete
 C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain.Services\bin\Debug\netcoreapp3.1\DesafioKPMG.Domain.Core.dll
 C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain.Services\bin\Debug\netcoreapp3.1\DesafioKPMG.Domain.Core.pdb
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain.Services\bin\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.dll
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Domain.Services\bin\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.pdb

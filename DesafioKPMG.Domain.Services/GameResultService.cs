@@ -1,7 +1,7 @@
 ﻿using DesafioKPMG.Domain.Core.Interfaces.Repository;
 using DesafioKPMG.Domain.Core.Interfaces.Services;
 using DesafioKPMG.Domain.Entities;
-
+using DesafioKPMG.Infra.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,9 +12,10 @@ namespace DesafioKPMG.Domain.Services
     {
         private readonly IGameResultRepository gameResultRepository;
 
-        public GameResultService(IGameResultRepository gameResultRepository):base(gameResultRepository)
+        public GameResultService(IGameResultRepository gameResultRepository) :base(gameResultRepository)
         {
             this.gameResultRepository = gameResultRepository;
         }
+
     }
 }
