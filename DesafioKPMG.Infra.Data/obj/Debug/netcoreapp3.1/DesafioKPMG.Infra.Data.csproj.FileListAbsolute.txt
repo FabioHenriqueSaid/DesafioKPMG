@@ -1,0 +1,17 @@
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\bin\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.deps.json
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\bin\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.runtimeconfig.json
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\bin\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.runtimeconfig.dev.json
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\bin\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.dll
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\bin\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.pdb
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\bin\Debug\netcoreapp3.1\DesafioKPMG.Domain.dll
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\bin\Debug\netcoreapp3.1\DesafioKPMG.Domain.pdb
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\obj\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.csprojAssemblyReference.cache
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\obj\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\obj\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.AssemblyInfo.cs
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\obj\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\obj\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.csproj.CopyComplete
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\obj\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.dll
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\obj\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.pdb
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\obj\Debug\netcoreapp3.1\DesafioKPMG.Infra.Data.genruntimeconfig.cache
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\bin\Debug\netcoreapp3.1\DesafioKPMG.Domain.Core.dll
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Infra.Data\bin\Debug\netcoreapp3.1\DesafioKPMG.Domain.Core.pdb

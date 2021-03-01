@@ -1,0 +1,459 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.CrossCutting\\DesafioKPMG.CrossCutting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Application\\DesafioKPMG.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Application\\DesafioKPMG.Application.csproj",
+        "projectName": "DesafioKPMG.Application",
+        "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Application\\DesafioKPMG.Application.csproj",
+        "packagesPath": "C:\\Users\\said\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\said\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Core\\DesafioKPMG.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Core\\DesafioKPMG.Domain.Core.csproj"
+              },
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj"
+              },
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Infra.Data\\DesafioKPMG.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Infra.Data\\DesafioKPMG.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.CrossCutting\\DesafioKPMG.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.CrossCutting\\DesafioKPMG.CrossCutting.csproj",
+        "projectName": "DesafioKPMG.CrossCutting",
+        "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.CrossCutting\\DesafioKPMG.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\said\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\said\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Application\\DesafioKPMG.Application.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Application\\DesafioKPMG.Application.csproj"
+              },
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Services\\DesafioKPMG.Domain.Services.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Services\\DesafioKPMG.Domain.Services.csproj"
+              },
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj"
+              },
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Infra.Data\\DesafioKPMG.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Infra.Data\\DesafioKPMG.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Core\\DesafioKPMG.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Core\\DesafioKPMG.Domain.Core.csproj",
+        "projectName": "DesafioKPMG.Domain.Core",
+        "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Core\\DesafioKPMG.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\said\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\said\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Services\\DesafioKPMG.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Services\\DesafioKPMG.Domain.Services.csproj",
+        "projectName": "DesafioKPMG.Domain.Services",
+        "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Services\\DesafioKPMG.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\said\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\said\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Core\\DesafioKPMG.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Core\\DesafioKPMG.Domain.Core.csproj"
+              },
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj",
+        "projectName": "DesafioKPMG.Domain",
+        "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj",
+        "packagesPath": "C:\\Users\\said\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\said\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Infra.Data\\DesafioKPMG.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Infra.Data\\DesafioKPMG.Infra.Data.csproj",
+        "projectName": "DesafioKPMG.Infra.Data",
+        "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Infra.Data\\DesafioKPMG.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\said\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\said\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Core\\DesafioKPMG.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain.Core\\DesafioKPMG.Domain.Core.csproj"
+              },
+              "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj": {
+                "projectPath": "C:\\Users\\said\\source\\repos\\DesafioKPMG\\DesafioKPMG.Domain\\DesafioKPMG.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

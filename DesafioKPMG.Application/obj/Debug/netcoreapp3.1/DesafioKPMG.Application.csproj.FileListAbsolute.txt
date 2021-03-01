@@ -1,0 +1,14 @@
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\bin\Debug\netcoreapp3.1\DesafioKPMG.Application.deps.json
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\bin\Debug\netcoreapp3.1\DesafioKPMG.Application.dll
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\bin\Debug\netcoreapp3.1\DesafioKPMG.Application.pdb
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\obj\Debug\netcoreapp3.1\DesafioKPMG.Application.csprojAssemblyReference.cache
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\obj\Debug\netcoreapp3.1\DesafioKPMG.Application.AssemblyInfoInputs.cache
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\obj\Debug\netcoreapp3.1\DesafioKPMG.Application.AssemblyInfo.cs
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\obj\Debug\netcoreapp3.1\DesafioKPMG.Application.csproj.CoreCompileInputs.cache
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\obj\Debug\netcoreapp3.1\DesafioKPMG.Application.dll
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\obj\Debug\netcoreapp3.1\DesafioKPMG.Application.pdb
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\bin\Debug\netcoreapp3.1\DesafioKPMG.Domain.Core.dll
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\bin\Debug\netcoreapp3.1\DesafioKPMG.Domain.dll
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\bin\Debug\netcoreapp3.1\DesafioKPMG.Domain.Core.pdb
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\bin\Debug\netcoreapp3.1\DesafioKPMG.Domain.pdb
+C:\Users\said\source\repos\DesafioKPMG\DesafioKPMG.Application\obj\Debug\netcoreapp3.1\DesafioKPMG.Application.csproj.CopyComplete
