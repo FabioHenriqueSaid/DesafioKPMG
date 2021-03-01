@@ -3,7 +3,9 @@ Observações.
 O balanço de ponto é inserido automaticamente.
 
 Para testar o EndPoint 1
+
 EndPoint 1 - https://localhost:44316/gameresult
+
 Exemplo de json
  {
     "GameId":1,
