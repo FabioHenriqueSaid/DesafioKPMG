@@ -36,10 +36,7 @@ namespace DesafioKPMG.Application
 
         public void Teste(DataContext dataContext) {
 
-            IEnumerable<string> dataContextt = Leaderboard
-                               .Where(n => n.Contains("a"))
-                               .OrderBy(n => n.Length)
-                               .Select(n => n.ToUpper());
+        
         }
         public IEnumerable<LeaderboardDto> GetAll()
         {
