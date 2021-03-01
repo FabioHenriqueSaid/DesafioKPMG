@@ -4,7 +4,7 @@ O balanço de ponto é inserido automaticamente.
 
 Para testar o EndPoint 1
 
-EndPoint 1 - https://localhost:44316/gameresult
+EndPoint 1 POST - https://localhost:44316/gameresult
 
 Exemplo de json
  {
@@ -14,5 +14,5 @@ Exemplo de json
     "TimeStamp":"2020-03-02"
   }
 
-EndPoint - 2
-  https://localhost:44316/leaderboard
+EndPoint - 2 
+  GET https://localhost:44316/leaderboard
