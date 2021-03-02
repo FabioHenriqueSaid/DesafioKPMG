@@ -1,8 +1,10 @@
 ﻿using DesafioKPMG.Application.Dtos;
 using DesafioKPMG.Application.Interfaces;
+using DesafioKPMG.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace DesafioKPMG.Api.Controllers
 {
@@ -17,7 +19,7 @@ namespace DesafioKPMG.Api.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] GameResultDto gameResultDto)
+        public async Task<ActionResult<GameResult>> Post([FromBody] GameResultDto gameResultDto)
         {
             try
             {
@@ -26,16 +28,16 @@ namespace DesafioKPMG.Api.Controllers
 
                 applicationServiceGameResult.Add(gameResultDto);
 
-                return Ok("Game cadastrado!");
+                return Ok(new { message = "Cadastrado" });
             }
             catch (Exception ex)
             {
-                throw ex;
+                return BadRequest(new { message = "Não foi possível criar ", ex });
             }
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public async Task<ActionResult<IEnumerable<GameResult>>> Get()
         {
             return Ok(applicationServiceGameResult.GetAll());
         }

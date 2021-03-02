@@ -1,8 +1,10 @@
 ﻿using DesafioKPMG.Application.Dtos;
 using DesafioKPMG.Application.Interfaces;
+using DesafioKPMG.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace DesafioKPMG.Api.Controllers
 {
@@ -16,7 +18,7 @@ namespace DesafioKPMG.Api.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] LeaderboardDto LeaderboardDto)
+        public async Task<ActionResult<Leaderboard>> Post([FromBody] LeaderboardDto LeaderboardDto)
         {
             try
             {
@@ -32,7 +34,7 @@ namespace DesafioKPMG.Api.Controllers
             }
         }
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public async Task<ActionResult<IEnumerable<Leaderboard>>> Get()
         {
             return Ok(applicationServiceLeaderboard.BestPlayers());
         }
