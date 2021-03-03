@@ -20,7 +20,7 @@ namespace DesafioKPMG.Infra.Data.Repositorys
         }
         public IEnumerable<Leaderboard> BestPlayers()
         {
-            return dataContext.Set<Leaderboard>().OrderByDescending(c => c.Balance);
+            return dataContext.Set<Leaderboard>().OrderByDescending(c => c.Balance).Take(100);
         }
 
         public Task<Leaderboard> GetAllById(string id)
